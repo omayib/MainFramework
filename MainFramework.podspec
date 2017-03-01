@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 	s.platform     = :ios, "9.0"
 
 	#s.source       = { :path => "." }
-	s.source       = { :git => 'https://gitlab.devops.mhealth.tech/omayib/madurasdk.git', :branch => 'feature/podify' }
+	s.source       = { :git => 'https://gitlab.devops.mhealth.tech/omayib/MainFramework.git'}
 
 	s.source_files  = "MainFramework/*.{h,m,swift,xib}"
 
