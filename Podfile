@@ -6,5 +6,6 @@ target 'MainFramework' do
   use_frameworks!
 
   # Pods for MainFramework
+  pod 'WeaponFramework', :git => 'https://github.com/omayib/WeaponFramework.git'
 
 end

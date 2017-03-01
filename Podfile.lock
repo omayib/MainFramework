@@ -1,0 +1,21 @@
+PODS:
+  - WeaponFramework (0.0.1)
+
+DEPENDENCIES:
+  - WeaponFramework (from `https://github.com/omayib/WeaponFramework.git`)
+
+EXTERNAL SOURCES:
+  WeaponFramework:
+    :git: https://github.com/omayib/WeaponFramework.git
+
+CHECKOUT OPTIONS:
+  WeaponFramework:
+    :commit: 48ceabf1b38ddcd6c0f4e2803992c360aac35175
+    :git: https://github.com/omayib/WeaponFramework.git
+
+SPEC CHECKSUMS:
+  WeaponFramework: db680af8dfa13e5ecbbb20ac901680ffd56fcb4b
+
+PODFILE CHECKSUM: 5a7908d7fa1b05747fa87a043c04a0f1c8b41726
+
+COCOAPODS: 1.2.0

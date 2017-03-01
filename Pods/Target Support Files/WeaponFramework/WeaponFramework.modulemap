@@ -1,0 +1,6 @@
+framework module WeaponFramework {
+  umbrella header "WeaponFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -21,4 +21,5 @@ Pod::Spec.new do |s|
 	s.resource_bundles = {
 	    'MainFramework' => ['MainFramework/*.{xib,xcassets,imageset,png}']
 	}
+	s.dipendency= "WeaponFramework"
 end
