@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	s.name         = "MainFramework"
-	s.version      = "0.0.1"
+	s.version      = "0.0.2"
 	s.summary      = "make it simple dev call enggine."
 
 	s.homepage     = "http://qiscus.com"
