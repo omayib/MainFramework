@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EE963FE8E7B426B2FDCCB193A1A691A97EC7F664",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CF6934B7678D7740FF6601912DE00D1AF23BD926" : 9223372036854775807,
+    "EE963FE8E7B426B2FDCCB193A1A691A97EC7F664" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5DCDD5EC-AA35-496D-B1BF-9A0A71F59572",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CF6934B7678D7740FF6601912DE00D1AF23BD926" : "",
+    "EE963FE8E7B426B2FDCCB193A1A691A97EC7F664" : "MainFramework\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MainFramework",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MainFramework.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/omayib\/HeroApp-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CF6934B7678D7740FF6601912DE00D1AF23BD926"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/omayib\/MainFramework.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EE963FE8E7B426B2FDCCB193A1A691A97EC7F664"
+    }
+  ]
+}
