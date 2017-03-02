@@ -21,5 +21,13 @@ Pod::Spec.new do |s|
 	s.resource_bundles = {
 	    'MainFramework' => ['MainFramework/*.{xib,xcassets,imageset,png}']
 	}
-	s.dipendency= "WeaponFramework"
+	s.subspec 'WeaponFramework' do |sp|
+		sp.source       = { :git => 'https://gitlab.devops.mhealth.tech/omayib/WeaponFramework.git'}
+		sp.source_files  = "WeaponFramework/*.{h,m,swift,xib}"
+		sp.resources = "WeaponFramework/*.xcassets"
+		sp.resource_bundles = {
+		    'WeaponFramework' => ['WeaponFramework/*.{xib,xcassets,imageset,png}']
+		}
+  	end
+	s.dependency "WeaponFramework"
 end
