@@ -13,21 +13,20 @@ Pod::Spec.new do |s|
 	s.platform     = :ios, "9.0"
 
 	#s.source       = { :path => "." }
-	s.source       = { :git => 'https://gitlab.devops.mhealth.tech/omayib/MainFramework.git'}
+	s.source       = { :git => 'https://gitlab.devops.mhealth.tech/omayib/HeroApp-iOS.git'}
 
-	s.source_files  = "MainFramework/*.{h,m,swift,xib}"
+	s.source_files  = "MainFramework/MainFramework/*.{h,m,swift,xib}"
 
-	s.resources = "MainFramework/*.xcassets"
+	s.resources = "MainFramework/MainFramework/*.xcassets"
 	s.resource_bundles = {
-	    'MainFramework' => ['MainFramework/*.{xib,xcassets,imageset,png}']
+	    'MainFramework' => ['MainFramework/MainFramework/*.{xib,xcassets,imageset,png}']
 	}
 	s.subspec 'WeaponFramework' do |sp|
-		sp.source       = { :git => 'https://gitlab.devops.mhealth.tech/omayib/WeaponFramework.git'}
-		sp.source_files  = "WeaponFramework/*.{h,m,swift,xib}"
+		sp.source_files  = "WeaponFramework/WeaponFramework/*.{h,m,swift,xib}"
 		sp.resources = "WeaponFramework/*.xcassets"
 		sp.resource_bundles = {
-		    'WeaponFramework' => ['WeaponFramework/*.{xib,xcassets,imageset,png}']
+		    'WeaponFramework' => ['WeaponFramework/WeaponFramework/*.{xib,xcassets,imageset,png}']
 		}
   	end
-	s.dependency "WeaponFramework"
+	s.dependency "WeaponFramework",:git => 'https://gitlab.devops.mhealth.tech/omayib/HeroApp-iOS.git'
 end
