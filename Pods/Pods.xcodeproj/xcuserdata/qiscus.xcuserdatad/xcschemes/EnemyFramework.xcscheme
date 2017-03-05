@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '8A76AA44ABC7B02EED025822AA9C5C29'
-               BlueprintName = 'WeaponFramework-WeaponFramework'
+               BlueprintIdentifier = '974D426C1D0405B5FB6D324CF902D6DE'
+               BlueprintName = 'EnemyFramework'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'WeaponFramework.bundle'>
+               BuildableName = 'EnemyFramework.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

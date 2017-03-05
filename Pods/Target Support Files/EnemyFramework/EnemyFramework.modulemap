@@ -1,0 +1,6 @@
+framework module EnemyFramework {
+  umbrella header "EnemyFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

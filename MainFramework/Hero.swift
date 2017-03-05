@@ -7,15 +7,16 @@
 //
 
 import Foundation
-import WeaponFramework
+import EnemyFramework
+
 
 open class Hero{
     let name:String
     
     public init(name: String) {
         self.name = name
-        let weapon = Weapon(name: "AK47")
-        weapon.shoot()
+        let enemy = Enemy(name: "serigala")
+        enemy.run()
     }
     
     public func jump(){

@@ -10,8 +10,7 @@
 #endif
 #endif
 
-#import "WeaponFramework.h"
 
-FOUNDATION_EXPORT double WeaponFrameworkVersionNumber;
-FOUNDATION_EXPORT const unsigned char WeaponFrameworkVersionString[];
+FOUNDATION_EXPORT double EnemyFrameworkVersionNumber;
+FOUNDATION_EXPORT const unsigned char EnemyFrameworkVersionString[];
 

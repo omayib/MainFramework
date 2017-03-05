@@ -4,17 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>EnemyFramework.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-MainFramework.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>WeaponFramework-WeaponFramework.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>WeaponFramework.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>77BF14339153505D78627CBC25B9ABB6</key>
+		<key>974D426C1D0405B5FB6D324CF902D6DE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8A76AA44ABC7B02EED025822AA9C5C29</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>CE04CD62AAE35930FED64F957B3DFEB5</key>
+		<key>CEAE7CDE35C87BADDBDE89BEB45763CE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

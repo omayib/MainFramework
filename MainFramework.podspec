@@ -13,13 +13,13 @@ Pod::Spec.new do |s|
 	s.platform     = :ios, "9.0"
 
 	#s.source       = { :path => "." }
-	s.source       = { :git => 'https://github.com/omayib/HeroApp-iOS.git'}
+	s.source       = { :git => 'https://github.com/omayib/MainFramework.git'}
 
 	s.source_files  = "MainFramework/MainFramework/*.{h,m,swift,xib}"
 
 	s.resources = "MainFramework/MainFramework/*.xcassets"
-	s.resource_bundles = {
-	    'MainFramework' => ['MainFramework/MainFramework/*.{xib,xcassets,imageset,png}']
-	}
-	s.dependency "WeaponFramework"
+#s.resource_bundles = {
+#	    'MainFramework' => ['MainFramework/MainFramework/*.{xib,xcassets,imageset,png}']
+#	}
+	s.dependency "EnemyFramework"
 end
