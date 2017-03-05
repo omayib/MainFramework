@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	s.name         = "MainFramework"
-	s.version      = "0.0.3"
+	s.version      = "0.0.4"
 	s.summary      = "make it simple dev call enggine."
 
 	s.homepage     = "http://qiscus.com"
@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
 	#s.source       = { :path => "." }
 	s.source       = { :git => 'https://github.com/omayib/MainFramework.git', :tag => s.version.to_s}
 
-	s.source_files  = "MainFramework/MainFramework/*.{h,m,swift,xib}"
+	s.source_files  = "MainFramework/*.{h,m,swift,xib}"
 
-	s.resources = "MainFramework/MainFramework/*.xcassets"
+#	s.resources = "MainFramework/MainFramework/*.xcassets"
 #s.resource_bundles = {
 #	    'MainFramework' => ['MainFramework/MainFramework/*.{xib,xcassets,imageset,png}']
 #	}
